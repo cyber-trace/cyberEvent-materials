@@ -1,0 +1,26 @@
+#box-1 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+#box-2 {
+  width: 300px;
+  border-top: 10px dotted red;
+  border-bottom: 10px dashed red;
+  border-left: 10px double red;
+  border-right: 10px solid red;
+  padding: 50px 20px;
+  margin: 20px 10px;
+}
+
+#box-3 {
+  width: 300px;
+  border: 15px solid green;
+  margin-top: 10px;
+  margin-bottom: 13px;
+  margin-left: 20px;
+  margin-right: 21px;
+  padding: 50px 21px 30px 10px;
+}
