@@ -1,0 +1,56 @@
+p {
+  color: gray;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  word-spacing: 0.05cm;
+  letter-spacing: 0.05cm;
+}
+#club-act-list,
+#social-list {
+  list-style: none;
+}
+li {
+  color: rgb(39, 39, 39);
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  word-spacing: 0.05cm;
+  letter-spacing: 0.03 cm;
+}
+
+#title-1 {
+  color: rgb(26, 26, 26);
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  word-spacing: 0.01cm;
+  letter-spacing: 0.03cm;
+}
+.title-2 {
+  color: gray;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  word-spacing: 0.05cm;
+  letter-spacing: 0.05cm;
+}
+#submit-btn {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+label {
+  color: rgb(39, 39, 39);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  word-spacing: 0.05cm;
+  letter-spacing: 0.05cm;
+}
+a {
+  text-decoration: none;
+}

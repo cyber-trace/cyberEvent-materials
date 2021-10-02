@@ -1,0 +1,72 @@
+p {
+  color: gray;
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  word-spacing: 0.05cm;
+  letter-spacing: 0.05cm;
+}
+#club-act-list,
+#social-list {
+  list-style: none;
+}
+li {
+  color: rgb(39, 39, 39);
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  word-spacing: 0.05cm;
+  letter-spacing: 0.03 cm;
+  margin: 8px 0;
+}
+
+#title-1 {
+  color: rgb(26, 26, 26);
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 900;
+  word-spacing: 0.01cm;
+  letter-spacing: 0.03cm;
+}
+.title-2 {
+  color: rgb(32, 32, 32);
+  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  word-spacing: 0.02cm;
+  letter-spacing: 0.03cm;
+  border-left: 4px rgb(0, 162, 255) solid;
+  padding-left: 1%;
+}
+#submit-btn {
+  background-color: rgb(0, 162, 255);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 18px;
+  padding: 12px 14px;
+}
+label {
+  color: rgb(39, 39, 39);
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  word-spacing: 0.05cm;
+  letter-spacing: 0.05cm;
+}
+a {
+  text-decoration: none;
+}
+input {
+  padding: 12px 20px;
+  margin: 10px 0;
+  /* border: none; */
+  outline: none;
+  border-radius: 4px;
+  border: 1px gray solid;
+}
+input:focus {
+  border: 2px rgb(0, 162, 255) solid;
+}
