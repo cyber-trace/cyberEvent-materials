@@ -29,12 +29,14 @@ li {
   letter-spacing: 0.03cm;
 }
 .title-2 {
-  color: gray;
-  font-size: 24px;
+  color: rgb(32, 32, 32);
+  font-size: 22px;
   font-family: "Courier New", Courier, monospace;
-  font-weight: 500;
-  word-spacing: 0.05cm;
-  letter-spacing: 0.05cm;
+  font-weight: 600;
+  word-spacing: 0.02cm;
+  letter-spacing: 0.03cm;
+  border-left: 4px rgb(0, 162, 255) solid;
+  padding-left: 1%;
 }
 #submit-btn {
   background-color: rgb(0, 162, 255);
