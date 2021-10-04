@@ -1,4 +1,36 @@
+/* this is a repsonsive image */
 #img-1 {
   max-width: 100%;
   height: auto;
+}
+/* let's play with raduis */
+#img-2 {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* border-radius: 50%; */
+  padding: 5px;
+  width: 150px;
+}
+
+/* the power of shadows */
+#img-3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* filter: grayscale(100%); */
+}
+/* it must fit  :ok_hand: */
+#container {
+  background-color: rgb(207, 207, 207);
+  width: 400px;
+  height: 400px;
+}
+#img-4 {
+  /* object-fit: contain; */
+  object-fit: cover;
+  /* object-fit: fill; */
+  /* width: 200px;
+  height: 300px; */
+}
+img {
+  display: block;
+  margin: 10px;
 }
