@@ -22,9 +22,9 @@ li {
 
 #title-1 {
   color: rgb(26, 26, 26);
-  font-size: 24px;
+  font-size: 26px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 900;
+  font-weight: bold;
   word-spacing: 0.01cm;
   letter-spacing: 0.03cm;
 }
@@ -103,3 +103,14 @@ form {
   width: 30%;
 } */
 /* second approach:we make it like the navbar. we will see it in  next section */
+#nav {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+h1 {
+  /* first design */
+  /* margin: auto 0; */
+  /* second design */
+  margin: auto;
+}
