@@ -114,3 +114,23 @@ h1 {
   /* second design */
   margin: auto;
 }
+#social-list li:nth-child(1) i {
+  color: #0c8cf0;
+}
+#social-list li:nth-child(2) i {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#social-list li:nth-child(3) i {
+  color: #0a66c2;
+}
