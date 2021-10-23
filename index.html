@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
+    <script src="js/utilities.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <title>Music Streaming - Cyber-Treace</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="user_hero-container"></div>
+      <div class="seach_field-container">
+        <div><i class="fas fa-search"></i></div>
+        <input type="text" placeholder="Search for artists, songs and ..." />
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- most player section -->
+    <section id="most_player">
+      <div class="section_header">
+        <h1>Most player songs</h1>
+        <div class="links">
+          <a href="#" class="see_more-link"
+            ><span>see more</span>
+            <div><i class="fas fa-chevron-right"></i></div
+          ></a>
+        </div>
+      </div>
+      <div id="music_list_1" class="most_player-container">
+        <!-- <div class="song-card">
+          <div class="song-album_img"></div>
+          <h1>Song title</h1>
+          <h2>Artist name</h2>
+        </div>
+        <div class="song-card">
+          <div class="song-album_img"></div>
+          <h1>Song title</h1>
+          <h2>Artist name</h2>
+        </div>
+        <div class="song-card">
+          <div class="song-album_img"></div>
+          <h1>Song title</h1>
+          <h2>Artist name</h2>
+        </div>
+        <div class="song-card">
+          <div class="song-album_img"></div>
+          <h1>Song title</h1>
+          <h2>Artist name</h2>
+        </div> -->
+      </div>
+    </section>
+    <!-- end most player section -->
+
+    <!-- music player -->
+    <section id="player">
+      <audio id="audio_player" src="" audio></audio>
+
+      <div class="song_data">
+        <div class="small_cover">
+          <img id="small_cover" alt="" />
+        </div>
+        <div class="info">
+          <h1 id="song_name">song title</h1>
+          <h2 id="artist_name">artist name</h2>
+        </div>
+      </div>
+      <div class="controller">
+        <div><i class="fas fa-step-backward"></i></div>
+        <div id="play_btn"><i class="fas fa-play"></i></div>
+        <div><i class="fas fa-step-forward"></i></div>
+      </div>
+      <div class="progress_bar">
+        <div id="inner_bar" class="inner_bar"></div>
+      </div>
+    </section>
+    <!-- end music player -->
+  </body>
+</html>
