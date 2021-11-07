@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Trace</title>
+  </head>
+  <body>
+    <!-- <div> -->
+    <!-- <h4>try this code:</h4>
+      <div id="test-code">
+        <input
+          type="text"
+          onchange="handlChange()"
+          id="input1"
+          placeholder="propriety"
+        />:
+        <input
+          type="text"
+          onchange="handlChange()"
+          id="input2"
+          placeholder="value"
+        />
+        ;
+      </div>
+      <div class="result" style="grid-area: result">
+        <h4>the result:</h4>
+        <p id="test">this is a testing element</p>
+      </div>
+    </div> -->
+    <input type="text" id="inpt-1" />
+    <input type="text" id="inpt-2" />
+    <button id="btn">click me!</button>
+    <script>
+      const test = document.querySelector("#test");
+      let input1 = document.querySelector("#input1");
+      let input2 = document.querySelector("#input2");
+
+      const handlChange = () => (test.style[input1.value] = input2.value);
+    </script>
+    <script src="./index.js" type="text/javascript"></script>
+  </body>
+</html>
